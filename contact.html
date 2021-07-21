@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Details Form</title>
+        <script type="text/javascript" src="submit.js"></script>
+ 
+    </head>
+    <body>
+        <div>
+            <div>Contact Information</div>
+            <form action="application.html" method="POST">
+                <label>Email Address : </label>
+                <input id="email" type="email" required ><br>
+                <label>Phone : </label>
+                <input id="phone" type="number"><br>
+                <label>Mobile : </label>
+                <input id="mobile" type="number" required><br>
+                 
+                <button type="button" onclick="history.back()">Prev</button>
+                <a href="application.html">
+                    <button type="button" onclick="handleSubmit3()">Next</button></a>
+               
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Details Form</title>
+        <script type="text/javascript" src="submit.js" ></script>
+         <script src="https://smtpjs.com/v3/smtp.js"></script>  
+
+    </head>
+    <body>
+        <div>
+            <div>Application Information</div>
+            <form method="POST">
+                <label>Preferred Entrance Date : </label>
+                <input id="pedate" type="date" required><br>
+                <label>Number of People : </label>
+                <input id="nop" type="number" required><br>
+                 
+                <button type="button" onclick="history.back()">Prev</button>
+                
+                <button type="button" onclick="sent(), change()">Submit</button><br>
+
+
+
+                <div id="result-fname"></div><br>
+                <div id="result-lname"></div><br>
+                <div id="result-dob"></div><br>
+                <div id="result-insnumber"></div><br>
+                <div id="result-fstatus"></div><br>
+
+                <div id="result-street"></div><br>
+                <div id="result-city"></div><br>
+                <div id="result-pin"></div><br>
+                <div id="result-country"></div><br>
+
+                <div id="result-email"></div><br>
+                <div id="result-phone"></div><br>
+                <div id="result-mobile"></div><br>
+
+                <div id="result-pedate"></div><br>
+                <div id="result-nop"></div><br>
+
+
+            </form>
+        </div>
+    </body>
+</html>
